@@ -23,7 +23,7 @@ dependencies {
 	testImplementation 'io.projectreactor:reactor-test'
 
 	// spring cloud eureka
-	//implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
 
 	// mysql db
 	runtimeOnly 'dev.miku:r2dbc-mysql'
